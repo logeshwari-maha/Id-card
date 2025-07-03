@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
+import { HashRouter } from 'react-router-dom';
 import './App.css';
+
+<HashRouter>
+  <App />
+</HashRouter>
 
 function App() {
   const [formData, setFormData] = useState({
